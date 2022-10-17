@@ -1,0 +1,77 @@
+<div class="text-layout">
+  <h1>Pipes basicos</h1>
+  <p>Pipes incluidos en Angular - usualmente en el ComomModule</p>
+
+  <div class="grid">
+    <div class="col-4">
+      <p-card header="uppercase" [subheader]="nombreLower | uppercase">
+        {{ nombreLower | uppercase }}
+      </p-card>
+    </div>
+
+    <div class="col-4">
+      <p-card header="Lowercase" [subheader]="nombreUpper | lowercase">
+        {{ nombreLower | uppercase }}
+      </p-card>
+    </div>
+
+    <div class="col-4">
+      <p-card header="titleCase" [subheader]="nombreCompleto | titlecase">
+        {{ nombreCompleto | titlecase }}
+      </p-card>
+    </div>
+  </div>
+</div>
+
+<div class="text-layout">
+  <h1>Date pipe</h1>
+  <p>Para mostrar las fechas</p>
+
+  <div class="grid">
+    <div class="col-6">
+      <p-card>
+        <ul>
+          <li>fecha</li>
+          <li>fecha | date</li>
+          <li>fecha | date: "short"</li>
+          <li>fecha | date: "long"</li>
+          <li>
+            <a href="https://angular.io/api/common/DatePipe"
+              >angular.io/api/common/DatePipe</a
+            >
+          </li>
+
+          <hr />
+
+          <ul>
+            <li>fecha | date: "long":"GMT-6"</li>
+            <li>fecha | date: "long":"GMT-6":"es-HN"</li>
+            <li>fecha | date: "long":"GMT-4"</li>
+            <li>fecha | date: "long":"":"fr"</li>
+          </ul>
+        </ul>
+      </p-card>
+    </div>
+
+    <div class="col-6">
+      <p-card>
+        <ul>
+          <li>{{ fecha }}</li>
+          <li>{{ fecha | date }}</li>
+          <li>{{ fecha | date: "short" }}</li>
+          <li>{{ fecha | date: "long" }}</li>
+          <li>{{ fecha | date: "G yyyy hh mm ss" }}</li>
+
+          <hr />
+
+          <ul>
+            <li>{{ fecha | date: "long":"GMT-6" }}</li>
+            <li>{{ fecha | date: "long":"GMT-6":"es-HN" }}</li>
+            <li>{{ fecha | date: "long":"GMT-4" }}</li>
+            <li>{{ fecha | date: "long":"":"fr" }}</li>
+          </ul>
+        </ul>
+      </p-card>
+    </div>
+  </div>
+</div>
