@@ -1,1 +1,24 @@
-<p>ordenar works!</p>
+<div class="text-layout">
+  <h1>Pipe personalizados 😆</h1>
+  <p>Custom pipes 😎, {{ "creados por Jhony" | mayusculas: enMayusculas }}</p>
+  <p>Custom pipes 😎, {{ "creados por Jhony" | mayusculas: enMayusculas }}</p>
+  <button
+    pButton
+    (click)="changeMayusculas()"
+    label="changeMayusculas"
+  ></button>
+</div>
+
+<p-toolbar>
+  <div class="p-toolbar-group-left"></div>
+
+  <div class="p-toolbar-group-right">
+    <p-button icon="pi pi-search"></p-button>
+    <button
+      pButton
+      icon="pi-sort"
+      (click)="changeMayusculas()"
+      label="Por Nombre"
+    ></button>
+  </div>
+</p-toolbar>
