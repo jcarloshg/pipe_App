@@ -2,6 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
+## Screenshots
+
+### folders
+![folders!](https://github.com/jcarloshg/pipe_App/blob/main/src/assets/Screenshot-12.png)
+
+### numbers
+![numbers!](https://github.com/jcarloshg/pipe_App/blob/main/src/assets/Screenshot-10.png)
+
+### decimal
+![decimal!](https://github.com/jcarloshg/pipe_App/blob/main/src/assets/Screenshot-11.png)
+
+### personalized
+![personalized!](https://github.com/jcarloshg/pipe_App/blob/main/src/assets/Screenshot-13.png)
+
+### basics
+![basics](https://github.com/jcarloshg/pipe_App/blob/main/src/assets/Screenshot-14.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
