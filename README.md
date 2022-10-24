@@ -2,22 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
-## run project
-### install [JSON Server](https://www.npmjs.com/package/json-server)
-```cmd
-
-npm install -g json-server
-
-// run json-server
-cd /HeroesApp_ChildrenRoute/05-heroesApp-server/
-json-server --watch db.json
- 
-// start project
-ng server 
-// or 
-npm run start
-```
-
 ## Screenshots
 
 ### folders
